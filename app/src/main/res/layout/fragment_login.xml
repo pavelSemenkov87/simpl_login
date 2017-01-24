@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Введите логин"
+        android:id="@+id/editLogLText"
+        style="@android:style/Widget.Material.EditText"
+        android:textAppearance="@style/TextAppearance.CastIntroOverlay.Title"
+        android:textColor="@color/cast_expanded_controller_background_color"
+        android:textSize="30sp"
+        android:layout_marginTop="100dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoLogLView"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/editPassLText"
+        android:hint="Введите пароль"
+        style="@android:style/Widget.Material.EditText"
+        android:textAppearance="@style/TextAppearance.CastIntroOverlay.Title"
+        android:textColor="@color/cast_expanded_controller_background_color"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoPassLView"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <Button
+        android:text="Войти"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputLogBut"
+        style="@android:style/Widget.Button"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/cast_expanded_controller_background_color"
+        android:textSize="30sp" />
+
+</LinearLayout>
